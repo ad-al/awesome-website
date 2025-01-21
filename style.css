@@ -115,11 +115,40 @@ button {
 }
 
 .image {
-  border: 2px solid #3882F6;
-  border-radius: 8px;
+  border: 4px solid #3882F6;
+  border-radius: 15px;
 }
 
 .subtext {
   font-size: 18px;
   color: #666666;
+}
+
+/* SECOND SECTION ARRANGEMENT */
+
+.second-section {
+  padding: 45px 200px 130px;
+}
+
+.information,
+.subtext {
+  text-align: center; 
+}
+
+.information {
+  margin-bottom: 45px;
+}
+
+.images,
+.subtexts {
+  display: flex;
+  justify-content: space-evenly;  
+}
+
+.images {
+  margin-bottom: 7px;
+}
+
+.image {
+  padding: 78px;
 }
