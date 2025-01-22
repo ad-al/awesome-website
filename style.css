@@ -24,8 +24,7 @@ button,
 }
 
 .logo,
-.main-text,
-button {
+.main-text {
   font-weight: 900;  
 }
 
@@ -57,6 +56,7 @@ button {
   background-color: #3882F6;
   border-radius: 8px;
   border: none;
+  font-weight: 700;
 }
 
 .placeholder {
@@ -185,4 +185,29 @@ button {
 
 .author {
   text-align: end;
+}
+
+/* FOURTH SECTION STYLING */
+
+.fourth-section {
+  background-color: #3882F6;
+}
+
+.action,
+.click {
+  color: #F9FAF8;
+}
+
+.action {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.click {
+  font-size: 18px;
+  font-weight: 300; 
+}
+
+.fourth-section button {
+  border: 2px solid #F9FAF8;
 }
