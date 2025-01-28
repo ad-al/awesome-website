@@ -68,13 +68,13 @@ button {
 .first-section {
   display: flex;
   flex-direction: column;
-  padding: 30px 200px 130px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 130px;
+  width: 950px;
+  margin: 30px auto 130px;
 }
 
 .links {
@@ -84,6 +84,8 @@ button {
 
 .hero {
   display: flex;
+  width: 950px;
+  margin: 0 auto 130px;
 }
 
 .left,
