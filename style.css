@@ -65,27 +65,31 @@ button {
 
 /* FIRST SECTION ARRANGEMENT */
 
-.first-section {
+.first-section,
+.header,
+.links,
+.hero,
+.placeholder {
   display: flex;
+}
+
+.first-section {
   flex-direction: column;
+  padding-top: 30px;
+}
+
+.header,
+.hero {
+  width: 950px;
+  margin: 0 auto 130px;
 }
 
 .header {
-  display: flex;
   justify-content: space-between;
-  width: 950px;
-  margin: 30px auto 130px;
 }
 
 .links {
-  display: flex;
   gap: 30px;
-}
-
-.hero {
-  display: flex;
-  width: 950px;
-  margin: 0 auto 130px;
 }
 
 .left,
@@ -102,7 +106,6 @@ button {
 }
 
 .placeholder {
-  display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
