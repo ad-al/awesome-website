@@ -128,23 +128,17 @@ button {
 
 /* SECOND SECTION ARRANGEMENT */
 
-.second-section {
-  padding: 45px 200px 130px;
-}
-
-.information,
-.subtext {
-  text-align: center; 
-}
-
 .information {
-  margin-bottom: 45px;
+  width: 440px;
+  margin: 45px auto;
 }
 
 .images,
 .subtexts {
   display: flex;
   justify-content: space-evenly;  
+  width: 910px;
+  margin: 0 auto;
 }
 
 .images {
@@ -153,6 +147,14 @@ button {
 
 .image {
   padding: 78px;
+}
+
+.subtexts {
+  margin-bottom: 130px;
+}
+
+.subtext {
+  text-align: center; 
 }
 
 /* THIRD SECTION STYLING */
